@@ -1,0 +1,7 @@
+def main():
+print("This program will print a tree with its height determined by the user")
+	x=int(input("Input number of branches:"))
+	branches="#"
+	for branches in [x]:
+		branches="#"*x
+		print(branches)
